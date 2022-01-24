@@ -1,0 +1,16 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'global';
+@import 'media';
+body {
+    padding: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    background-color: #FFCC99;
+}
+
+.active {
+    font-size: 25px;
+}

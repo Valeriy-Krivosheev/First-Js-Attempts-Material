@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Calculate</title>
+</head>
+
+<body>
+    <div class="inner"></div>
+    <div class="container">
+        <h1 class=""> Ваши затраты в кафе</h1>
+        <label>
+          <input class="input__bill" type="number" style="margin-bottom: 30px;">
+          <span>Ваш счет</span>
+          <br>
+        </label>
+        <label>
+          <input class="input__tips" type="number" style="margin-bottom: 20px;">
+          <span>Процент чаевых от счета</span>
+        </label>
+        <br>
+        <button style="padding: 20px; cursor: pointer;" onclick="calculate()">Посчитать</button>
+        <h2 id="text"></h2>
+    </div>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

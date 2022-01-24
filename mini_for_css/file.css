@@ -1,0 +1,13 @@
+html {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.main {
+    color: aliceblue;
+}
+
+img {
+    max-width: 200px;
+}
